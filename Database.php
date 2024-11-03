@@ -70,20 +70,20 @@
 	$db = new Database('localhost', 'matan', '1234', 'inmanage_db');
 
 	// user data last insertion
-	// $id = 6;
-	// $name = "Mrs. Dennis Schulist";
-	// $email = "Karley_Dach@jasper.info";
+	$id = 6;
+	$name = "Mrs. Dennis Schulist";
+	$email = "Karley_Dach@jasper.info";
 
-	// // sql insert query
-	// $query = "INSERT INTO users VALUES('$id', '$name', '$email')";
+	// sql insert query
+	$query = "INSERT INTO users VALUES('$id', '$name', '$email')";
 
-	// // Database class insert
-	// if ($db->insert($query)) {
-	// 	echo "$name data has been inserted successfully";
-	// }
+	// Database class insert
+	if ($db->insert($query)) {
+		echo "$name data has been inserted successfully";
+	}
 
 	// post data last insertion
-	$user_id = 7;
+	$user_id = 6;
 	$title = "soluta aliquam aperiam consequatur illo quis voluptas";
 	$content = "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem";
 
