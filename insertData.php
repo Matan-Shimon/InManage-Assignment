@@ -1,14 +1,11 @@
 <?php
 
 
-	// Include the Database class
-	include('database.php');
+	// Include config
+	include('configDb.php');
 
 	// Include the data
 	$data = include('data.php');
-
-	// Connect to DB
-	$db = new Database('localhost', 'matan', '1234', 'jsonplaceholder_db');
 
 	// Insert users
 	foreach ($data['users'] as $user) {

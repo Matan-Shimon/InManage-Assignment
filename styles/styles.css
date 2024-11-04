@@ -1,0 +1,32 @@
+.font {
+    font-family: Arial;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.user-posts {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.post h6 {
+    color: #333;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.post p {
+    color: #333;
+    font-size: 15px;
+}
+.image {
+    width: 50px;
+}
+h5 {
+    margin: 0;
+    font-size: 20px;
+}
