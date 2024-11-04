@@ -6,26 +6,32 @@
             [
                 'name' => 'Leanne Graham',
                 'email' => 'Sincere@april.biz',
+                'active' => 'yes'
             ],
             [
                 'name' => 'Ervin Howell',
                 'email' => 'Shanna@melissa.tv',
+                'active' => 'yes'
             ],
             [
                 'name' => 'Clementine Bauch',
                 'email' => 'Nathan@yesenia.net',
+                'active' => 'yes'
             ],
             [
                 'name' => 'Patricia Lebsack',
                 'email' => 'Julianne.OConner@kory.org',
+                'active' => 'yes'
             ],
             [
                 'name' => 'Chelsey Dietrich',
                 'email' => 'Lucio_Hettinger@annie.ca',
+                'active' => 'no'
             ],
             [
                 'name' => 'Mrs. Dennis Schulist',
                 'email' => 'Karley_Dach@jasper.info',
+                'active' => 'no'
             ],
         ],
         'posts' => [

@@ -14,9 +14,10 @@
 	foreach ($data['users'] as $user) {
 	    $name = $user['name'];
 	    $email = $user['email'];
+	    $active = $user['active'];
 
 	    // SQL insert query for users
-	    $query = "INSERT INTO users (name, email) VALUES ('$name', '$email')";
+	    $query = "INSERT INTO users (name, email, active) VALUES ('$name', '$email', '$active')";
 
 	    // Database class insert
 	    if ($db->insert($query)) {
