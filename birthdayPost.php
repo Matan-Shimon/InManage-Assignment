@@ -21,7 +21,6 @@
 
 	// Database class select
 	$results = $db->select($query);
-	print_r($results);
 
 ?>
 
