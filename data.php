@@ -1,6 +1,5 @@
 <?php
 
-    // data.php
     return [
         'users' => [
             [
